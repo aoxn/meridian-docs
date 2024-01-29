@@ -1,0 +1,48 @@
+site_name: Meridian Docs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to Dark Mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle: 
+        icon: material/toggle-switch
+        name: Switch to Light Mode
+      primary: teal
+      accent: lime
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/aoxn
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/aoxn" target="_blank" rel="noopener">Aoxn</a>
