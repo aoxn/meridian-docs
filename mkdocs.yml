@@ -5,8 +5,8 @@ site_description: >-
   Manager Kubernetes handless
 
 # Repository
-repo_name: aoxn/meridian-docs
-repo_url: https://github.com/aoxn/meridian-docs
+repo_name: aoxn/meridian
+repo_url: https://github.com/aoxn/meridian
 
 
 # Configuration
@@ -67,12 +67,12 @@ theme:
     logo: logo
 
 # Plugins
-plugins:
-  - blog
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+#plugins:
+#  - blog
+#  - search:
+#      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+#  - minify:
+#      minify_html: true
 
 # Additional configuration
 extra:
@@ -142,16 +142,12 @@ copyright: |
 
 # Page tree
 nav:
-  - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
+  - Home:
+      - Home: index.md
+      - Getting Started: get-started/getting-started.md
+  - Guides:
     - Changelog:
       - changelog/index.md
-      - How to upgrade: upgrade.md
-  - Setup:
-    - setup/index.md
-    - Changing the colors: setup/changing-the-colors.md
 
 # reference
 # https://aws.github.io/aws-eks-best-practices/

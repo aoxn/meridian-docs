@@ -1,29 +1,12 @@
-# Welcome to MkDocs
+# Welcome to Meridian
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Meridian is Containers management and Kubernetes cluster management tool on the desktop with cloud support. It is available on both Mac and linux(under-developing) & windows(under-developing)
 
-## Commands
+## Container Management
+Meridian provide container running environment with docker engine. You can build, push, pull and run container with docker command.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Kubernetes
+Meridian is built in with kubernetes support. It can create multiple kubernetes environment on local desktop.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## Code
-
-``` py title="bubble sort" linenums="1" hl_lines="2 3"
-
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items)-1-i):
-            if items[j]>itmes[j+1]:
-                itmes[j],itmes[j+1] = itmes[j+1],items[j]
-
-```
+## Cloud Support
+You can add cloud workers into the kubernetes cluster, alibaba cloud is supported , aws worker support is coming soon.
