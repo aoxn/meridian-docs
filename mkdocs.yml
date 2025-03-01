@@ -143,7 +143,8 @@ copyright: |
 # Page tree
 nav:
   - Home:
-      - Home: index.md
+      - index.md
+      - Introduction: introduction.md
       - Getting Started: get-started/getting-started.md
   - Guides:
     - Changelog:
